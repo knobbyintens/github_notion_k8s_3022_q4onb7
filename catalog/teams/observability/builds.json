@@ -1,0 +1,46 @@
+{
+  "team": "observability",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "incident-correlator",
+      "team": "observability",
+      "image": "ghcr.io/cobalt-ridge/incident-correlator:1.0.6",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-25"
+    },
+    {
+      "service": "legacy-metrics-agent",
+      "team": "observability",
+      "image": "ghcr.io/cobalt-ridge/legacy-metrics-agent:0.4.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-08-14"
+    },
+    {
+      "service": "log-shipper",
+      "team": "observability",
+      "image": "ghcr.io/cobalt-ridge/log-shipper:1.1.4",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-18"
+    },
+    {
+      "service": "metrics-aggregator",
+      "team": "observability",
+      "image": "ghcr.io/cobalt-ridge/metrics-aggregator:4.2.6",
+      "container_port": 9090,
+      "deprecated": false,
+      "released_at": "2026-09-16"
+    },
+    {
+      "service": "slo-evaluator",
+      "team": "observability",
+      "image": "ghcr.io/cobalt-ridge/slo-evaluator:2.3.8",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-10-09"
+    }
+  ]
+}

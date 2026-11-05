@@ -1,0 +1,70 @@
+{
+  "team": "payments-core",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "fraud-scoring-engine",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/fraud-scoring-engine:2.1.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-08"
+    },
+    {
+      "service": "ledger-posting-api",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/ledger-posting-api:4.1.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-18"
+    },
+    {
+      "service": "ledger-summary-worker",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/ledger-summary-worker:1.4.7",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-10-06"
+    },
+    {
+      "service": "legacy-billing-adapter",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/legacy-billing-adapter:0.6.4",
+      "container_port": 8080,
+      "deprecated": true,
+      "released_at": "2025-11-02"
+    },
+    {
+      "service": "payments-gateway",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/payments-gateway:6.0.3",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-22"
+    },
+    {
+      "service": "pilot-billing-sandbox",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/pilot-billing-sandbox:0.2.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-06-30"
+    },
+    {
+      "service": "refund-orchestrator",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/refund-orchestrator:3.2.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-25"
+    },
+    {
+      "service": "settlement-batch-runner",
+      "team": "payments-core",
+      "image": "ghcr.io/cobalt-ridge/settlement-batch-runner:2.7.1",
+      "container_port": 9090,
+      "deprecated": false,
+      "released_at": "2026-09-12"
+    }
+  ]
+}

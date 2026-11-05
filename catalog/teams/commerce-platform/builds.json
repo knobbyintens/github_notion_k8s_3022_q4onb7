@@ -1,0 +1,70 @@
+{
+  "team": "commerce-platform",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "cart-service",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/cart-service:2.9.4",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-14"
+    },
+    {
+      "service": "checkout-orchestrator",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/checkout-orchestrator:7.0.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-24"
+    },
+    {
+      "service": "loyalty-points-service",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/loyalty-points-service:1.8.3",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-05"
+    },
+    {
+      "service": "pdf-statement-service",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/pdf-statement-service:2.4.1",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-03"
+    },
+    {
+      "service": "pricing-rules-engine",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/pricing-rules-engine:3.5.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-21"
+    },
+    {
+      "service": "product-catalog-api",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/product-catalog-api:5.3.1",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-16"
+    },
+    {
+      "service": "qa-load-generator",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/qa-load-generator:1.1.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-06-18"
+    },
+    {
+      "service": "returns-orchestrator",
+      "team": "commerce-platform",
+      "image": "ghcr.io/cobalt-ridge/returns-orchestrator:1.2.9",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-10-02"
+    }
+  ]
+}

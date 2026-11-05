@@ -1,0 +1,70 @@
+{
+  "team": "data-services",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "analytics-ingestor",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/analytics-ingestor:3.4.8",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-17"
+    },
+    {
+      "service": "batch-ftp-loader",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/batch-ftp-loader:1.0.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-08-28"
+    },
+    {
+      "service": "dataset-lineage-api",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/dataset-lineage-api:1.6.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-29"
+    },
+    {
+      "service": "legacy-report-engine",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/legacy-report-engine:0.8.0",
+      "container_port": 8080,
+      "deprecated": true,
+      "released_at": "2025-09-15"
+    },
+    {
+      "service": "model-registry-api",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/model-registry-api:0.9.1",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-06"
+    },
+    {
+      "service": "report-renderer",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/report-renderer:2.0.3",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-28"
+    },
+    {
+      "service": "search-indexer",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/search-indexer:5.1.7",
+      "container_port": 9200,
+      "deprecated": false,
+      "released_at": "2026-09-13"
+    },
+    {
+      "service": "warehouse-loader",
+      "team": "data-services",
+      "image": "ghcr.io/cobalt-ridge/warehouse-loader:6.2.4",
+      "container_port": 9090,
+      "deprecated": false,
+      "released_at": "2026-09-15"
+    }
+  ]
+}

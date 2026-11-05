@@ -1,0 +1,46 @@
+{
+  "team": "edge-infra",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "cdn-purge-service",
+      "team": "edge-infra",
+      "image": "ghcr.io/cobalt-ridge/cdn-purge-service:0.8.2",
+      "container_port": 8080,
+      "deprecated": true,
+      "released_at": "2026-07-30"
+    },
+    {
+      "service": "edge-proxy",
+      "team": "edge-infra",
+      "image": "ghcr.io/cobalt-ridge/edge-proxy:9.0.1",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-09"
+    },
+    {
+      "service": "gateway-tls-terminator",
+      "team": "edge-infra",
+      "image": "ghcr.io/cobalt-ridge/gateway-tls-terminator:1.3.5",
+      "container_port": 8443,
+      "deprecated": false,
+      "released_at": "2026-09-12"
+    },
+    {
+      "service": "geo-routing-service",
+      "team": "edge-infra",
+      "image": "ghcr.io/cobalt-ridge/geo-routing-service:2.1.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-24"
+    },
+    {
+      "service": "vpn-concentrator",
+      "team": "edge-infra",
+      "image": "ghcr.io/cobalt-ridge/vpn-concentrator:2.0.7",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-08-26"
+    }
+  ]
+}

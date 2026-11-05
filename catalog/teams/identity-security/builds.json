@@ -1,0 +1,54 @@
+{
+  "team": "identity-security",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "access-policy-engine",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/access-policy-engine:4.6.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-19"
+    },
+    {
+      "service": "identity-provider",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/identity-provider:8.1.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-11"
+    },
+    {
+      "service": "old-auth-proxy",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/old-auth-proxy:0.3.9",
+      "container_port": 8080,
+      "deprecated": true,
+      "released_at": "2025-10-21"
+    },
+    {
+      "service": "tenant-provisioner",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/tenant-provisioner:3.1.6",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-26"
+    },
+    {
+      "service": "token-service",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/token-service:2.8.5",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-23"
+    },
+    {
+      "service": "workforce-directory",
+      "team": "identity-security",
+      "image": "ghcr.io/cobalt-ridge/workforce-directory:1.2.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-07"
+    }
+  ]
+}

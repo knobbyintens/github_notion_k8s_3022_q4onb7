@@ -1,0 +1,46 @@
+{
+  "team": "platform-runtime",
+  "updated_at": "2026-11-02",
+  "artifacts": [
+    {
+      "service": "config-hub",
+      "team": "platform-runtime",
+      "image": "ghcr.io/cobalt-ridge/config-hub:2.5.1",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-10"
+    },
+    {
+      "service": "deprecated-frontend",
+      "team": "platform-runtime",
+      "image": "ghcr.io/cobalt-ridge/deprecated-frontend:3.1.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-08-19"
+    },
+    {
+      "service": "feature-flags",
+      "team": "platform-runtime",
+      "image": "ghcr.io/cobalt-ridge/feature-flags:3.7.0",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-20"
+    },
+    {
+      "service": "rate-limit-service",
+      "team": "platform-runtime",
+      "image": "ghcr.io/cobalt-ridge/rate-limit-service:4.0.2",
+      "container_port": 8080,
+      "deprecated": false,
+      "released_at": "2026-09-27"
+    },
+    {
+      "service": "secrets-broker",
+      "team": "platform-runtime",
+      "image": "ghcr.io/cobalt-ridge/secrets-broker:1.9.4",
+      "container_port": 8200,
+      "deprecated": false,
+      "released_at": "2026-09-22"
+    }
+  ]
+}
