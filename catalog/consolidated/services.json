@@ -1,40 +1,6 @@
 {
   "last_refresh": "2026-09-30",
   "note": "Monthly consolidated snapshot generated from the team build registries. Registrations made after the refresh date appear only in the owning team's registry, which is authoritative.",
-  "team_registries": [
-    {
-      "team": "payments-core",
-      "path": "catalog/teams/payments-core/builds.json"
-    },
-    {
-      "team": "commerce-platform",
-      "path": "catalog/teams/commerce-platform/builds.json"
-    },
-    {
-      "team": "identity-security",
-      "path": "catalog/teams/identity-security/builds.json"
-    },
-    {
-      "team": "data-services",
-      "path": "catalog/teams/data-services/builds.json"
-    },
-    {
-      "team": "platform-runtime",
-      "path": "catalog/teams/platform-runtime/builds.json"
-    },
-    {
-      "team": "edge-infra",
-      "path": "catalog/teams/edge-infra/builds.json"
-    },
-    {
-      "team": "observability",
-      "path": "catalog/teams/observability/builds.json"
-    },
-    {
-      "team": "messaging-services",
-      "path": "catalog/teams/messaging-services/builds.json"
-    }
-  ],
   "artifacts": [
     {
       "service": "cart-service",
